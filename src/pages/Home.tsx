@@ -1,6 +1,7 @@
 import React from "react";
 import { Typography, Box } from "@mui/material";
 import ServiceMenu from "../components/ServiceMenu";
+import Booking from "../components/Booking";
 
 const Home: React.FC = () => {
   return (
@@ -22,6 +23,7 @@ const Home: React.FC = () => {
         </Typography>
       </Box>
       <ServiceMenu />
+      <Booking />
     </div>
   );
 };

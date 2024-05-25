@@ -1,5 +1,6 @@
 import React from "react";
 import { Typography, Box, Link } from "@mui/material";
+import { PHONE_NUMBER } from "../constants";
 
 const Footer: React.FC = () => {
   return (
@@ -16,7 +17,7 @@ const Footer: React.FC = () => {
       <Typography variant='body1' align='left'>
         Contact Us
         <br />
-        <Link href='tel:+18577018474'>(857)701-8474</Link>
+        {PHONE_NUMBER}
         <br />
         <Link href='mailto:example@gmail.com'>example@gmail.com</Link>
       </Typography>

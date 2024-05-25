@@ -1,5 +1,6 @@
 import React from "react";
 import { Grid, Typography } from "@mui/material";
+import { PHONE_NUMBER } from "../constants";
 
 const ServiceMenu: React.FC = () => {
   return (
@@ -12,7 +13,7 @@ const ServiceMenu: React.FC = () => {
         </Grid>
         <Grid item xs={12}>
           <Typography variant='h4' align='left'>
-            (857)701-8474
+            {PHONE_NUMBER}
           </Typography>
         </Grid>
         {/* First column */}
