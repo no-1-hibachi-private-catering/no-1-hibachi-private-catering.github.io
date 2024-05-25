@@ -4,7 +4,12 @@ import { Link } from "react-router-dom";
 
 const NavBar: React.FC = () => {
   return (
-    <AppBar position='static'>
+    <AppBar
+      position='static'
+      sx={{
+        backgroundColor: "#333",
+      }}
+    >
       <Toolbar>
         <Typography variant='h6' sx={{ flexGrow: 1 }}>
           No.1 Hibachi Private Catering
