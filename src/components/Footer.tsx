@@ -1,6 +1,6 @@
 import React from "react";
 import { Typography, Box, Link } from "@mui/material";
-import { PHONE_NUMBER } from "../constants";
+import { PHONE_NUMBER, EMAIL, COMPANY_NAME } from "../constants";
 
 const Footer: React.FC = () => {
   return (
@@ -19,10 +19,10 @@ const Footer: React.FC = () => {
         <br />
         {PHONE_NUMBER}
         <br />
-        <Link href='mailto:example@gmail.com'>example@gmail.com</Link>
+        <Link href={`mailto:${EMAIL}`}>{EMAIL}</Link>
       </Typography>
       <Typography variant='body2'>
-        &copy; 2024 Your Company Name. All rights reserved.
+        &copy; 2024 {COMPANY_NAME}. All rights reserved.
       </Typography>
     </Box>
   );
