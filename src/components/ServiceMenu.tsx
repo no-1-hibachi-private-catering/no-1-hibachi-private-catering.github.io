@@ -4,7 +4,7 @@ import { Grid, Typography } from "@mui/material";
 const ServiceMenu: React.FC = () => {
   return (
     <div>
-      <Grid container spacing={3} sx={{ maxWidth: 1200, margin: "auto" }}>
+      <Grid container spacing={3} sx={{ maxWidth: 1000, margin: "auto" }}>
         <Grid item xs={12}>
           <Typography variant='h3' align='center'>
             Grand Opening 15% Off
@@ -38,8 +38,10 @@ const ServiceMenu: React.FC = () => {
         </Grid>
         {/* Second column */}
         <Grid item xs={12} sm={3}>
-          <Typography variant='h6'>Protein Choices</Typography>
-          <Typography>
+          <Typography variant='h6' align='right'>
+            Protein Choices
+          </Typography>
+          <Typography align='right'>
             Chicken
             <br />
             Steak
@@ -59,15 +61,19 @@ const ServiceMenu: React.FC = () => {
         </Grid>
         {/* Third column */}
         <Grid item xs={12} sm={4}>
-          <Typography variant='h6'>Appetizers</Typography>
-          <Typography>
+          <Typography variant='h6' align='right'>
+            Appetizers
+          </Typography>
+          <Typography align='right'>
             Gyoza $10 (6pcs)
             <br />
             Edamame $5
           </Typography>
           <br />
-          <Typography variant='h6'>Side Orders</Typography>
-          <Typography>
+          <Typography variant='h6' align='right'>
+            Side Orders
+          </Typography>
+          <Typography align='right'>
             Chicken (+$10)
             <br />
             Steak (+$10)
