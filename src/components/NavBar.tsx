@@ -7,7 +7,7 @@ const NavBar: React.FC = () => {
     <AppBar position='static'>
       <Toolbar>
         <Typography variant='h6' sx={{ flexGrow: 1 }}>
-          My App
+          No.1 Hibachi Private Catering
         </Typography>
         <Button color='inherit' component={Link} to='/'>
           Home

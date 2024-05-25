@@ -1,11 +1,27 @@
 import React from "react";
-import Typography from "@mui/material/Typography";
+import { Typography, Box } from "@mui/material";
+import ServiceMenu from "../components/ServiceMenu";
 
 const Home: React.FC = () => {
   return (
     <div>
-      <Typography variant='h4'>Home Page</Typography>
-      <Typography variant='body1'>Welcome to the Home Page!</Typography>
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          height: "50vh", // Adjust as needed
+        }}
+      >
+        <Typography variant='h3' align='right'>
+          We Bring
+          <br />
+          Hibachi
+          <br />
+          To Your Backyard
+        </Typography>
+      </Box>
+      <ServiceMenu />
     </div>
   );
 };
