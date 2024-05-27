@@ -24,7 +24,6 @@ const Booking: React.FC = () => {
                   Book your hibachi experience in Rhode Island.
                 </Typography>
                 <Typography variant='h5'>Text/Call: {PHONE_NUMBER}</Typography>
-                {/* Add any other content or buttons related to booking in Rhode Island */}
               </CardContent>
             </Card>
           </Grid>
@@ -35,10 +34,9 @@ const Booking: React.FC = () => {
                   Massachusetts
                 </Typography>
                 <Typography variant='body1'>
-                  Book your hibachi experience in Rhode Island.
+                  Book your hibachi experience in Massachusetts.
                 </Typography>
                 <Typography variant='h5'>Text/Call: {PHONE_NUMBER}</Typography>
-                {/* Add any other content or buttons related to booking in Rhode Island */}
               </CardContent>
             </Card>
           </Grid>
